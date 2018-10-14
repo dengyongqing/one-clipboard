@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "One Clipboard",
+	"description": "选中文本，自动复制到剪切板",
+	"version": "0.0.1",
+	"author": "dengyongqing@aliyun.com",
+	"icons": {
+		"16": "images/copy.jpg"
+	},
+	"permissions": ["tabs"],
+	"browser_action": {
+		"default_title": "选中文本，自动复制到剪切板"
+	},
+	"content_scripts": [{
+		"matches": ["*://*/*"],
+		"js": ["one_clipboard.js"]
+	}]
+}
