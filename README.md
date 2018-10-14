@@ -2,6 +2,6 @@
 
 选择内容，自动添加到粘贴板
 
-## 使用：
+## one-clipboard 
 
-。。。
+### one-clipboard 
