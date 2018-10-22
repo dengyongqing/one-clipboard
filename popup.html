@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>one-clipboard</title>
+    <style>
+        .wrap {
+            width: 300px;
+            min-height: 300px;
+            max-height: 400px;
+            padding: 10px;
+            padding-top: 0px;
+            overflow-y: scroll;
+        }
+        .list {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+        .item {
+            height: 40px;
+            line-height: 40px;
+            width: 100%;
+            border-bottom: 1px solid #e8e8e8;
+            text-overflow: ellipsis;
+            white-space: nowrap; 
+            overflow: hidden;
+        }
+        .item:hover {
+            background: #e8e8e8;
+        }
+        .header {
+            text-align: center;
+            color: #1890ff;
+            /* color: "#1890ff"; */
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap" id="wrap" >
+        <div class="header" id="header">点击复制到粘贴板</div>
+        <div class="list" id="list"> </div>
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/clipboard.js"></script>
+<script src="js/popup.js"></script>
+</html>

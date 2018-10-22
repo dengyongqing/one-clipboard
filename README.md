@@ -1,7 +1,4 @@
 # one-clipboard
 
-选择内容，自动添加到粘贴板
+保留粘贴板的历史记录，方便随时查看和复制。
 
-## one-clipboard 
-
-### one-clipboard 
